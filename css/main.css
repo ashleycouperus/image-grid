@@ -64,3 +64,16 @@ img:nth-child(2n+2) {
     display: none;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  img:first-child {
+    width: 66.6666%;
+    display: block;
+  }
+
+  img:last-child {
+    display: block;
+    width: 33.3333%;
+  }
+}
