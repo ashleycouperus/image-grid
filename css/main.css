@@ -28,12 +28,39 @@ img:nth-child(2n+2) {
 @media only screen and (min-width: 25em) {
 
   img:nth-child(2n+2) {
+    display: block;
     float: left;
     width: 50%;
   }
 
   img:nth-child(3n+3) {
+    display: block;
     float: right;
     width: 50%;
+  }
+
+  img:last-child {
+    display: block;
+    float: right;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  img:nth-child(2n+2) {
+    display: block;
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(3n+3) {
+    display: block;
+    float: left;
+    width: 33.333%;
+  }
+
+  img:last-child {
+    display: none;
   }
 }
